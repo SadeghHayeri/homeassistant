@@ -1,0 +1,4 @@
+mqtt:
+  broker: 127.0.0.1
+  port: 1885
+  client_id: homeassistant

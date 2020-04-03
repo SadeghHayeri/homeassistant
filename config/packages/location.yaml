@@ -1,0 +1,10 @@
+homeassistant:
+  latitude: !secret location.latitude
+  longitude: !secret location.longitude
+  elevation: !secret location.elevation
+  unit_system: metric
+  time_zone: Iran/Tehran
+  name: Home
+  whitelist_external_dirs:
+    - /usr/var/dumping-ground
+    - /tmp

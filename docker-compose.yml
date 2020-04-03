@@ -9,3 +9,9 @@ services:
       - TZ=Iran/Tehran
     restart: always
     network_mode: host
+  mqtt-broker:
+    container_name: mqtt-broker
+    image: eclipse-mosquitto:latest
+    volumes:
+      - ./.db/mqtt/data:/mosquitto/data
+      - ./.db/mqtt/log:/mosquitto/log/mosquitto.log

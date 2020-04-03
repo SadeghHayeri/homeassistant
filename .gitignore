@@ -2,3 +2,4 @@
 *.logs
 *.db
 .storage
+config/.HA_VERSION

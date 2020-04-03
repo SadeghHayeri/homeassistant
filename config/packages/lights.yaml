@@ -1,0 +1,3 @@
+main-light:
+  - platform: mqtt
+    command_topic: "main/light/switch"
